@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+   width: 1024px;
+   margin: 0 auto;
+   padding: 0;
+}
+.row:after {
+   content: "";
+   clear: both;
+   display: block;
+}
+header.header {
+   padding: 25px 0;
+}
+.logo {
+   margin: 25px 0px 25px 0px;
+}
+.banner {
+   width: 728px;
+   height: 90px;
+   /*margin: 15px;*/
+}
+.menu1 li {
+   float: left;
+   margin: 15px 30px 15px 0px;
+   /*border-right: 1px solid #235a93;*/
+}
+.menu2 li {
+   float: left;
+   margin: 15px 60px 15px 0px;
+}
+footer {
+   margin: 20px 0px 0px 200px;
+}
