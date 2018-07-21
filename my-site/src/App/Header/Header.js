@@ -2,8 +2,9 @@ import React from 'react'
 import './Header.css'
 
 import Logo from './Logo/logo.js'
+import Image from './Image/Image'
 import Menu from './Menu/Menu.js'
-import Menu2 from './Menu/Menu2.js'
+import Menu2 from './Menu2/Menu2.js'
 
 const Header = () => {
     return (
@@ -36,4 +37,5 @@ const Header = () => {
             </header>
     )
 }
-            export default Header
+
+export default Header
